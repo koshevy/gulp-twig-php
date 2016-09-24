@@ -14,4 +14,4 @@ package.
     
 
 Other dependencies have to be placed to ```/vendor``` directory
-once the *Composer* install the dependencies.
+by the *Composer*.
