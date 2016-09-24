@@ -77,7 +77,7 @@ It a reason why you must set **EVN path for PHP** (if it not setted).
 
 ## Install Composer and PHP-based dependencies
 
-    By default, you don't to do anymore.
+    By default, you don't need to do anymore.
     Composer and Twig will be installed automatically at first plugin launch.
 
 But if you want to turn off this feature in favor of manual installation,
