@@ -1,6 +1,6 @@
 {
   "name": "Gulp-TwigPHP",
-  "version": "1.0.0",
+  "version": "0.1",
   "description": "Plugin for Gulp provides integration with Twig original PHP implementation",
   "devDependencies": {
     "gulp-util":"^3.0.7",
