@@ -41,6 +41,8 @@ In the past we tried to use the *node-js*, but practice has revealed that
 documentation was at odds to implementation. And I decide myself to create
 this tool.
 
+The prefer way for us is the integration bridge between the two systems.
+I hope this way could be the simple. 
 
 ## Get Started
 
