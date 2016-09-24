@@ -1,6 +1,6 @@
 # Gulp plugin for Twig (PHP)
  
-Provides integration with The [*Twig*](http://twig.sensiolabs.org/) original
+Provides integration with the [*Twig*](http://twig.sensiolabs.org/) original
 PHP implementation. Makes easy working with true Twig
 instead using of the ersatz (**twig-js**) that's has
 no actual documentation and active community.
@@ -35,9 +35,9 @@ Same projects are just imitators, that's try to copy established product,
 but prospects of this copies are vague. All attempts to catch up original seems like
 Sisyphean Stone lifting, ***and you can't rely on same tools in you projects***.
 
-Particularly, *node-js* refer us to original *Twig* documentation,
+Particularly, *twig-js* refer us to original *Twig* documentation,
 but we can't have explain information about tool we use. It s a trap.
-In the past we tried to use the *node-js*, but practice has revealed that
+In the past we tried to use the *twig-js*, but practice has revealed that
 documentation was at odds to implementation. And I decide myself to create
 this tool.
 
