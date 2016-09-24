@@ -6,7 +6,7 @@ instead using of the ersatz (**twig-js**) that's has
 no actual documentation and active community.
 
 Inspired by [**node-twig**](https://github.com/bitmade/node-twig)
-that`s a good idea, but was't well-working when it was needed (for me).
+that`s a good idea but was't well-working when it was needed (for me).
 And still *node-twig* is not a Gulp-plugin as wel as **gulp-twig-php** is not a pure Node.js
 extension.
 
@@ -19,7 +19,7 @@ extension.
 
 The [*Twig*](http://twig.sensiolabs.org/) is a famous, sustainably growing template engine,
 with powerful toolkit over the PHP. Originally, *Twig* intended to working with Symphony2
-PHP framework, but more than 6 years history of products made *Twig* greater than just a template-engine
+PHP framework, but more than 6 years history of product made *Twig* greater than just a template-engine
 extension for framework. Today, *Twig* used by some other frameworks, CMS and etc.
 
 
