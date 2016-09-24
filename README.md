@@ -38,55 +38,6 @@ this tool.
 The prefer way for us is the integration bridge between the two systems.
 I hope this way could be the simple. 
 
-# Get Started
-
-## Install package
-
-Install this package through NPM.
-
-    npm install gulp-twig-php --save 
-
-## Install PHP
-
-*Twig* working at PHP. You must install PHP at your computer
-before. Prefered version is ***^5.6***.
-
-The way you install PHP depends of you OS and version.
-
-#### MacOS
-
-Usually, PHP built at OS. Otherwise, you can install PHP via [*Homebrew*](http://brew.sh/):
-
-    brew install php56
-
-#### Windows
-
-Try to download appropriate version here: http://php.net/downloads.php
-
-## Set PHP default path
-
-Plugin and theirs installer will call the PHP shortly, for instance: ```php installer.php```.
-It a reason why you must set **EVN path for PHP** (if it not setted).
-
-
-## Install Composer and PHP-based dependencies
-
-> **By default, you don't need to do anymore.**
->
-> Composer and Twig will be installed automatically at first plugin launch.
-
-But if you want to turn off this feature in favor of manual installation,
-set the ```implicitInstall``` option as ```false```.
-
-It may be useful if you want to have more control when PHP-dependencies setup proceed.
-In this case you can use **bash-file** (```install-twig.sh```), intended to help with installation. 
-
-    cd PATH-TO/node_modules/gulp-twig-php
-    PATH-TO/node_modules/gulp-twig-php/install-twig.sh
-
-This batch will install *Composer*, that's will help
-to install twig and theirs plugins. 
-
 # Usage
 
 It is simple as possible.
@@ -139,6 +90,54 @@ Plugin can be called with arguments:
 | ```logCallback```      | Callback for debug output (etc console.log) |
 | ```implicitInstall```  | Do install the Twig and dependencies implicitly |
 
+# Get Started
+
+## Install package
+
+Install this package through NPM.
+
+    npm install gulp-twig-php --save 
+
+## Install PHP
+
+*Twig* working at PHP. You must install PHP at your computer
+before. Prefered version is ***^5.6***.
+
+The way you install PHP depends of you OS and version.
+
+#### MacOS
+
+Usually, PHP built at OS. Otherwise, you can install PHP via [*Homebrew*](http://brew.sh/):
+
+    brew install php56
+
+#### Windows
+
+Try to download appropriate version here: http://php.net/downloads.php
+
+## Set PHP default path
+
+Plugin and theirs installer will call the PHP shortly, for instance: ```php installer.php```.
+It a reason why you must set **EVN path for PHP** (if it not setted).
+
+
+## Install Composer and PHP-based dependencies
+
+> **By default, you don't need to do anymore.**
+>
+> Composer and Twig will be installed automatically at first plugin launch.
+
+But if you want to turn off this feature in favor of manual installation,
+set the ```implicitInstall``` option as ```false```.
+
+It may be useful if you want to have more control when PHP-dependencies setup proceed.
+In this case you can use **bash-file** (```install-twig.sh```), intended to help with installation. 
+
+    cd PATH-TO/node_modules/gulp-twig-php
+    PATH-TO/node_modules/gulp-twig-php/install-twig.sh
+
+This batch will install *Composer*, that's will help
+to install twig and theirs plugins. 
 
 # Readymades
 
