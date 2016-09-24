@@ -5,15 +5,9 @@ PHP implementation. Makes easy working with true Twig
 instead using of the ersatz (**twig-js**) that's has
 no actual documentation and active community.
 
-Inspired by [**node-twig**](https://github.com/bitmade/node-twig)
-that`s a good idea but was't well-working when it was needed (for me).
-And still *node-twig* is not a Gulp-plugin as well as **gulp-twig-php** is not a pure Node.js
-extension.
-
-> Composer options in composer.json and middleware script Twig.php
-> was taken from node-twig package created by Manuel Moritz-Schliesing.
->   
-> Thank you, Manuel! Credentials is untouched.
+> **It's a very simple!** Just install PHP and this plugin.
+>
+> All integrations is automatized. 
 
 ### What is the Twig?
 
@@ -144,3 +138,16 @@ Plugin can be called with arguments:
 | ```cwd```              | Working directory for PHP                   |
 | ```logCallback```      | Callback for debug output (etc console.log) |
 | ```implicitInstall```  | Do install the Twig and dependencies implicitly |
+
+
+# Readymades
+
+Inspired by [**node-twig**](https://github.com/bitmade/node-twig)
+that`s a good idea but was't well-working when it was needed (for me).
+And still *node-twig* is not a Gulp-plugin as well as **gulp-twig-php** is not a pure Node.js
+extension.
+
+> Composer options in composer.json and middleware script Twig.php
+> was taken from node-twig package created by Manuel Moritz-Schliesing.
+>   
+> Thank you, Manuel! Credentials is untouched.
