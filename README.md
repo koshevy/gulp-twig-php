@@ -1,6 +1,6 @@
 # Gulp plugin for Twig (PHP)
  
-Plugin for *Gulp* provides integration with The [*Twig*](http://twig.sensiolabs.org/) original
+Provides integration with The [*Twig*](http://twig.sensiolabs.org/) original
 PHP implementation. Makes easy working with true Twig
 instead using of the ersatz (**twig-js**) that's has
 no actual documentation and active community.
@@ -10,7 +10,7 @@ that`s a good idea but was't well-working when it was needed (for me).
 And still *node-twig* is not a Gulp-plugin as wel as **gulp-twig-php** is not a pure Node.js
 extension.
 
-    Composer options in composer.json and middleware file Twig.php
+    Composer options in composer.json and middleware script Twig.php
     was took from node-twig package created by Manuel Moritz-Schliesing.
     
     Thank you, Manuel! Credentials is untouched.
@@ -26,13 +26,13 @@ extension for framework. Today, *Twig* used by some other frameworks, CMS and et
 ### Purpose to use
 
 The *Twig* is a good challenger to be the mainstream of templating, that can
-be common for NodeJS and PHP-based engines of HTML-based views development.
+be common for *NodeJS* and *PHP-based* engines of HTML-based views development.
 
 
 ### Why not Twig-JS and same?
 
-Same projects are just imitators, that try copy established product,
-but prospects of this copy are vague. All attempts to catch up original seems like
+Same projects are just imitators, that's try to copy established product,
+but prospects of this copies are vague. All attempts to catch up original seems like
 Sisyphean Stone lifting, ***and you can't rely on same tools in you projects***.
 
 Particularly, *node-js* refer us to original *Twig* documentation,
