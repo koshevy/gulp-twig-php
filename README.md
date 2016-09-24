@@ -44,15 +44,15 @@ this tool.
 The prefer way for us is the integration bridge between the two systems.
 I hope this way could be the simple. 
 
-## Get Started
+# Get Started
 
-### Install package
+## Install package
 
 Install this package through NPM.
 
     npm install gulp-twig-php --save 
 
-### Install PHP
+## Install PHP
 
 *Twig* working at PHP. You must install PHP at your computer
 before. Prefered version is ***^5.6***.
@@ -69,13 +69,13 @@ Usually, PHP built at OS. Otherwise, you can install PHP via [*Homebrew*](http:/
 
 Try to download appropriate version here: http://php.net/downloads.php
 
-### Set PHP default path
+## Set PHP default path
 
 Plugin and theirs installer will call the PHP shortly, for instance: ```php installer.php```.
 It a reason why you must set **EVN path for PHP** (if it not setted).
 
 
-### Install Composer and PHP-based dependencies
+## Install Composer and PHP-based dependencies
 
     By default, you don't to do anymore.
     Composer and Twig will be installed automatically at first plugin launch.
@@ -92,7 +92,7 @@ In this case you can use **bash-file**, intended to help with instalation.
 This batch will install *Composer*, that's will help
 to install twig and theirs plugins. 
 
-## Usage
+# Usage
 
 It is simple as possible.
 Just create gulp task and don't think about how it works:
