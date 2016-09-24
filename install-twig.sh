@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 BLUE='\033[0;34m';
+GREEN='\033[0;32m';
 WHITE='\033[0m';
 
 
@@ -28,5 +29,4 @@ printf "Done"
 
 
 printf "\n\n";
-printf "${BLUE}Gulp-Twig-Php ready to use!\n${WHITE}";
-printf "${BLUE}——————————————————————————\n\n${WHITE}";
+printf "${GREEN}Gulp-Twig-Php ready to use!\n${WHITE}";
