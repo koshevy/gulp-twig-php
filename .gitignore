@@ -3,3 +3,6 @@
 .idea
 node_modules
 php/vendor
+composer.lock
+composer.phar
+installer.php

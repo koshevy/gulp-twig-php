@@ -3,25 +3,27 @@
  * PHP implementation.
  *
  * Options:
- * ▪ phpPath        Path of PHP or alias (default: 'php')
- * ▪ rootPath       Root path of project
- * ▪ twigPhpPath    Path of PHP-script launches Twig
- * ▪ cwd            Working directory for PHP
- * ▪ logCallback    Callback for debug output (etc console.log)
+ * ▪ phpPath            Path of PHP or alias (default: 'php')
+ * ▪ rootPath           Root path of project
+ * ▪ twigPhpPath        Path of PHP-script launches Twig
+ * ▪ cwd                Working directory for PHP
+ * ▪ logCallback        Callback for debug output (etc console.log)
+ * ▪ implicitInstall    Do install the Twig and dependencies implicitly
  */
 
 'use strict';
 
 const gutil = require('gulp-util');
-const through = require('through2');
 const _ = require('lodash');
 const shellton = require('shellton');
+const through = require('through2');
 
 const defaultOptions = {
     phpPath: "php",
     rootPath: __dirname+"/../../src",
     twigPhpPath: __dirname+"/php/Twig.php",
     cwd: __dirname+"/php/",
+    implicitInstall: true,
     logCallback: null
 };
 
@@ -35,6 +37,10 @@ module.exports = (options) => {
 
         if(options.logCallback)
             options.logCallback('FOUND TEMPLATE: ', file.path, ', DO PROCESSING');
+
+        if(implicitInstall)
+            // todo реализовать неявную установку
+            ;
 
         // making command to execute
         const   thisThrough = this,
