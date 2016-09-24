@@ -115,8 +115,7 @@ Just create gulp task and don't think about how it works:
             // and use this plugin
             .pipe(twig({
                 logCallback: console.log    // some messages will be printed
-                                            // through console.log(...)
-            }))
+            }))                             // through console.log(...)
 
             // next pipe must to change name
             // of destination file in order to
