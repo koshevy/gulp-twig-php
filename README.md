@@ -7,7 +7,7 @@ no actual documentation and active community.
 
 Inspired by [**node-twig**](https://github.com/bitmade/node-twig)
 that`s a good idea but was't well-working when it was needed (for me).
-And still *node-twig* is not a Gulp-plugin as wel as **gulp-twig-php** is not a pure Node.js
+And still *node-twig* is not a Gulp-plugin as well as **gulp-twig-php** is not a pure Node.js
 extension.
 
 > Composer options in composer.json and middleware script Twig.php
@@ -85,7 +85,7 @@ But if you want to turn off this feature in favor of manual installation,
 set the ```implicitInstall``` option as ```false```.
 
 It may be useful if you want to have more control when PHP-dependencies setup proceed.
-In this case you can use **bash-file**, intended to help with instalation. 
+In this case you can use **bash-file** (```install-twig.sh```), intended to help with installation. 
 
     cd PATH-TO/node_modules/gulp-twig-php
     PATH-TO/node_modules/gulp-twig-php/install-twig.sh
