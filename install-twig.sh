@@ -22,11 +22,15 @@ php ./composer.phar install --no-dev;
 
 printf "\n\n";
 printf "${BLUE}Remove Composer and theirs installer\n${WHITE}";
-printf "${BLUE}——————————————————————————————————\n\n${WHITE}";
+printf "${BLUE}——————————————————————————————————\n\n${GREEN}";
 rm -f ./composer.phar;
 rm -f ./installer.php;
-printf "Done"
+printf "✓ Done"
 
 
-printf "\n\n";
-printf "${GREEN}Gulp-Twig-Php ready to use!\n${WHITE}";
+printf "\n\n${BLUE}";
+printf "╔══════════════════════════════════╗\n";
+printf "║ ⚡ Gulp-Twig-Php is ready to use! ║\n";
+printf "╚══════════════════════════════════╝\n";
+
+printf "\n\n${WHITE}";
