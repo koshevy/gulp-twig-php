@@ -7,7 +7,7 @@ no actual documentation and active community.
 
 > **It's a very simple!** Just install PHP and this plugin.
 >
-> All integrations is automatized. 
+> All integrations are automatized. 
 
 ### What is the Twig?
 
