@@ -11,7 +11,7 @@ And still *node-twig* is not a Gulp-plugin as wel as **gulp-twig-php** is not a 
 extension.
 
     Composer options in composer.json and middleware script Twig.php
-    was taken from node-twig package created by Manuel Moritz-Schliesing.
+    has taken from node-twig package created by Manuel Moritz-Schliesing.
     
     Thank you, Manuel! Credentials is untouched.
 
@@ -86,9 +86,11 @@ to install twig and theirs plugins.
 
 ## Usage
 
+
+
 ## API
 
-### Options:
+Plugin can be called with arguments:
 
 - **phpPath**        Path of PHP or alias (default: ```php```)
 - **rootPath**       Root path of project
