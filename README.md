@@ -29,7 +29,7 @@ The *Twig* is a good challenger to be the mainstream of templating, that can
 be common for *NodeJS* and *PHP-based* engines of HTML-based views development.
 
 
-### Why not Twig-JS and same?
+### Why not the Twig-JS and the like?
 
 Same projects are just imitators, that's try to copy established product,
 but prospects of this copies are vague. All attempts to catch up original seems like
