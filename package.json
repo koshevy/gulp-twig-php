@@ -1,10 +1,10 @@
 {
   "name": "gulp-twig-php",
-  "version": "0.1.0",
-  "description": "Plugin for Gulp provides integration with Twig original PHP implementation",
+  "version": "0.1.1",
+  "description": "Plugin for Gulp: provides integration with Twig original PHP implementation",
   "devDependencies": {
     "gulp-util":"^3.0.7",
-    "fs": "0.0.1-security",
+    "file-exists": "^2.0.0",
     "lodash": "^4.15.0",
     "shellton": "^2.1.0",
     "through2": "^2.0.1"
