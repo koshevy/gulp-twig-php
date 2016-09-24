@@ -10,10 +10,10 @@ that`s a good idea but was't well-working when it was needed (for me).
 And still *node-twig* is not a Gulp-plugin as wel as **gulp-twig-php** is not a pure Node.js
 extension.
 
-    Composer options in composer.json and middleware script Twig.php
-    was taken from node-twig package created by Manuel Moritz-Schliesing.
-    
-    Thank you, Manuel! Credentials is untouched.
+> Composer options in composer.json and middleware script Twig.php
+> was taken from node-twig package created by Manuel Moritz-Schliesing.
+>   
+> Thank you, Manuel! Credentials is untouched.
 
 ### What is the Twig?
 
@@ -77,8 +77,8 @@ It a reason why you must set **EVN path for PHP** (if it not setted).
 
 ## Install Composer and PHP-based dependencies
 
-    By default, you don't need to do anymore.
-    Composer and Twig will be installed automatically at first plugin launch.
+> **By default, you don't need to do anymore.**
+> Composer and Twig will be installed automatically at first plugin launch.
 
 But if you want to turn off this feature in favor of manual installation,
 set the ```implicitInstall``` option as ```false```.
