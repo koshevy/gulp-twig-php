@@ -45,10 +45,10 @@ module.exports = (options) => {
         // making command to execute
         const   thisThrough = this,
             command = (options.phpPath + ` -r '
-					            require "` + options.twigPhpPath + `";
-					            echo render("` + file.path + `", [
-						        "root" => "` + options.rootPath + `"
-					            ]);'`).replace(/\s+/g, ' ');
+                require "` + options.twigPhpPath + `";
+                echo render("` + file.path + `", [
+                "root" => "` + options.rootPath + `"
+                ]);'`).replace(/\s+/g, ' ');
 
         // command execution
         shellton({
