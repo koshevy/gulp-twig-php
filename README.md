@@ -78,8 +78,8 @@ You must set EVN path for PHP (if it not setted).
 
 You need just execute installer in your plugin directory:
 
-    cd PATH-TO/node-modules/gulp-twig-php
-    PATH-TO/node-modules/gulp-twig-php/install-twig.sh
+    cd PATH-TO/node_modules/gulp-twig-php
+    PATH-TO/node_modules/gulp-twig-php/install-twig.sh
 
 This batch will install *Composer*, that's will help
 to install twig and theirs plugins. 
