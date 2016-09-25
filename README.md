@@ -96,7 +96,7 @@ Plugin can be called with arguments:
 
 Install this package through NPM.
 
-    npm install gulp-twig-php --save 
+    npm install gulp-twig-php --save-dev
 
 ## Install PHP
 
