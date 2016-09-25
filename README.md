@@ -1,5 +1,9 @@
+[![Integrated with original Twig](https://img.shields.io/badge/twig-original-green.svg)](http://twig.sensiolabs.org/)
+[![Supports PHP 5.4+](https://img.shields.io/badge/php-5.4+-lightgrey.svg)](#)
+[![Supports any NodeJS version](https://img.shields.io/badge/node-4.x/6.x-lightgrey.svg)](#)
+
 # Gulp plugin for Twig (PHP)
- 
+
 Provides integration with the [*Twig*](http://twig.sensiolabs.org/) original
 PHP implementation. Makes easy working with true Twig
 instead using of the ersatz (**twig-js**) that's has
