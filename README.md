@@ -1,6 +1,5 @@
 [![Integrated with original Twig](https://img.shields.io/badge/twig-original-green.svg)](http://twig.sensiolabs.org/)
 [![Automatized install](https://img.shields.io/badge/php%20libraries%20install-automatized-brightgreen.svg)](https://www.npmjs.com/package/gulp-twig-php#install-composer-and-php-based-dependencies)
-[![Supports PHP 5.4+](https://img.shields.io/badge/composer-using)](#)
 [![Supports PHP 5.4+](https://img.shields.io/badge/php-5.4+-lightgrey.svg)](#)
 [![Supports any NodeJS version](https://img.shields.io/badge/node-4.x/6.x-lightgrey.svg)](#)
 [![Supports Gulp 3.9.1](https://img.shields.io/badge/gulp-3.9.1-cf4646.svg)](http://gulpjs.com/)
