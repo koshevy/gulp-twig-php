@@ -1,15 +1,15 @@
 {
   "name": "gulp-twig-php",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "description": "Gulp plugin for original Twig",
-  "devDependencies": {
+  "dependencies": {
     "file-exists": "^2.0.0",
     "lodash": "^4.15.0",
     "shellton": "^2.1.0",
     "through2": "^2.0.1"
   },
   "scripts": {
-    "install": "sh ./install-twig.sh"
+    "install-twig": "sh ./install-twig.sh"
   },
   "homepage": "http://github.com/koshevy/gulp-twig-php",
   "repository": {

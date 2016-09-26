@@ -9,12 +9,12 @@
 
 Provides integration with the [*Twig*](http://twig.sensiolabs.org/) original
 PHP implementation. Makes easy working with true Twig
-instead using of the ersatz (**twig-js**) that's has
+instead using of the ersatz (**twig.js**) that's has
 no actual documentation and active community.
 
-> **It's a very simple!** Just install PHP and this plugin.
->
-> All integrations are automatized. 
+>> #### It's a very simple
+>>
+>> ##### Just install PHP and this plugin.<br /> All integrations are automatized. 
 
 ### What is the Twig?
 
@@ -24,19 +24,19 @@ PHP framework, but more than 6 years history of product made *Twig* greater than
 extension for framework. Today, *Twig* used by some other frameworks, CMS and etc.
 
 
-### Purpose to use
+### Reason to use
 
 The *Twig* is a good challenger to be the mainstream of templating, that can
 be common for *NodeJS* and *PHP-based* engines of HTML-based views development.
 
 
-### Why not the Twig-JS and the like?
+### Why not the Twig.js and the like?
 
 Same projects are just imitators, that's try to copy established product,
 but prospects of this copies are vague. All attempts to catch up original seems like
 Sisyphean Stone lifting, ***and you can't rely on same tools in you projects***.
 
-Particularly, *twig-js* refer us to original *Twig* documentation,
+Particularly, *twig.js* refer us to original *Twig* documentation,
 but we can't have explain information about tool we use. It s a trap.
 In the past we tried to use the *twig-js*, but practice has revealed that
 documentation was at odds to implementation. And I decide myself to create
@@ -103,7 +103,7 @@ Plugin can be called with arguments:
 
 Install this package through NPM.
 
-    npm install gulp-twig-php --save-dev
+    npm install gulp-twig-php --save
 
 ## Install PHP
 
@@ -128,20 +128,30 @@ Plugin and theirs installer will call the PHP shortly, for instance: ```php inst
 It a reason why you must set **EVN path for PHP** (if it not setted).
 
 
+## OpenSSL
+
+It supposed, you already have properly installed OpenSSL at your computer.
+Otherwise you will get a error like this at first start:
+
+![OpenSSL error at Composer start](https://www.dropbox.com/s/srspaesthmfphv0/Pasted%20image%20at%202016_09_26%2011_30%20AM.png?dl=0)
+
+You can find information about OpenSSL install at official site: https://www.openssl.org/
+
+
 ## Install Composer and PHP-based dependencies
 
-> **By default, you don't need to do anymore.**
->
-> Composer and Twig will be installed automatically at first plugin launch.
+>> **By default, you don't need to do anymore.**
+>>
+>> Composer and Twig will be installed automatically at first plugin launch.
 
 But if you want to turn off this feature in favor of manual installation,
 set the ```implicitInstall``` option as ```false```.
 
 It may be useful if you want to have more control when PHP-dependencies setup proceed.
-In this case you can use **bash-file** (```install-twig.sh```), intended to help with installation. 
+In this case you can use script ```npm run install-twig```: 
 
-    cd PATH-TO/node_modules/gulp-twig-php
-    PATH-TO/node_modules/gulp-twig-php/install-twig.sh
+    cd <your-project-path>/node_modules/gulp-twig-php
+    npm run install-twig
 
 This batch will install *Composer*, that's will help
 to install twig and theirs plugins. 
@@ -156,4 +166,4 @@ extension.
 > Composer options in composer.json and middleware script Twig.php
 > was taken from node-twig package created by Manuel Moritz-Schliesing.
 >   
-> Thank you, Manuel! Credentials is untouched.
+> Thank you, Manuel! Credentials info is untouched.
