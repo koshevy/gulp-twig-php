@@ -13,10 +13,10 @@
 
 'use strict';
 
-const fileExists = require('file-exists');
-const _ = require('lodash');
-const shellton = require('shellton');
-const through = require('through2');
+const fileExists = require('file-exists'),
+      _ = require('lodash'),
+      shellton = require('shellton'),
+      through = require('through2');
 
 const defaultOptions = {
     phpPath: "php",

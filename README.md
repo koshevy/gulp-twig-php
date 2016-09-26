@@ -52,11 +52,11 @@ Just create gulp task and don't think about how it works:
 
 ```js
 
-    const rename = require('gulp-rename');
-    const twig = require('gulp-twig-php');
+    const rename = require('gulp-rename'),
+          twig = require('gulp-twig-php'),
           
-    const srcPath = 'some/path/to/src';
-    const srcDest = 'some/path/to/dest';
+          srcPath = 'some/path/to/src',
+          const srcDest = 'some/path/to/dest';
     
 
     // create new task: for example - 'views'
@@ -143,6 +143,12 @@ You can find information about OpenSSL install at official site: https://www.ope
 >> **By default, you don't need to do anymore.**
 >>
 >> Composer and Twig will be installed automatically at first plugin launch.
+
+Look at this screenshot. There is we have first time start of *Gulp* task
+that uses *this plugin*. It can be seen that at first iteration plugin
+checks is there composer or it's dependencies exist and then starts Composer. 
+
+![OpenSSL error at Composer start](https://raw.githubusercontent.com/koshevy/gulp-twig-php/master/demo/error-examples/gulp-task-implicit-composer-install.png)
 
 But if you want to turn off this feature in favor of manual installation,
 set the ```implicitInstall``` option as ```false```.
