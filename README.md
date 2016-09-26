@@ -133,7 +133,7 @@ It a reason why you must set **EVN path for PHP** (if it not setted).
 It supposed, you already have properly installed OpenSSL at your computer.
 Otherwise you will get a error like this at first start:
 
-![OpenSSL error at Composer start](https://raw.githubusercontent.com/koshevy/gulp-twig-php/master/demo/error-examples/composer-openssl-error.png)
+![OpenSSL error at Composer start](https://raw.githubusercontent.com/koshevy/gulp-twig-php/master/demo/screenshots/composer-openssl-error.png)
 
 You can find information about OpenSSL install at official site: https://www.openssl.org/
 
@@ -148,7 +148,7 @@ Look at this screenshot. There is we have first time start of *Gulp* task
 that uses *this plugin*. It can be seen that at first iteration plugin
 checks is there composer or it's dependencies exist and then starts Composer. 
 
-![OpenSSL error at Composer start](https://raw.githubusercontent.com/koshevy/gulp-twig-php/master/demo/error-examples/gulp-task-implicit-composer-install.png)
+![OpenSSL error at Composer start](https://raw.githubusercontent.com/koshevy/gulp-twig-php/master/demo/screenshots/gulp-task-implicit-composer-install.png)
 
 But if you want to turn off this feature in favor of manual installation,
 set the ```implicitInstall``` option as ```false```.
