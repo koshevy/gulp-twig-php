@@ -133,7 +133,7 @@ It a reason why you must set **EVN path for PHP** (if it not setted).
 It supposed, you already have properly installed OpenSSL at your computer.
 Otherwise you will get a error like this at first start:
 
-![OpenSSL error at Composer start](https://raw.githubusercontent.com/koshevy/gulp-twig-php/master/error-examples/composer-openssl-error.png)
+![OpenSSL error at Composer start](https://raw.githubusercontent.com/koshevy/gulp-twig-php/master/demo/error-examples/composer-openssl-error.png)
 
 You can find information about OpenSSL install at official site: https://www.openssl.org/
 
