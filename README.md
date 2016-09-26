@@ -52,11 +52,11 @@ Just create gulp task and don't think about how it works:
 
 ```js
 
-    const rename = require('gulp-rename'),
-          twig = require('gulp-twig-php');
+    const rename = require('gulp-rename');
+    const twig = require('gulp-twig-php');
           
-    const srcPath = 'some/path/to/src',
-          srcDest = 'some/path/to/dest';
+    const srcPath = 'some/path/to/src';
+    const srcDest = 'some/path/to/dest';
     
 
     // create new task: for example - 'views'
@@ -77,7 +77,7 @@ Just create gulp task and don't think about how it works:
                 extname: '.html'
             }))
             
-            // and you can set source
+            // and you can set destination
             .pipe(gulp.dest(srcDest))
     );
 
@@ -133,7 +133,7 @@ It a reason why you must set **EVN path for PHP** (if it not setted).
 It supposed, you already have properly installed OpenSSL at your computer.
 Otherwise you will get a error like this at first start:
 
-![OpenSSL error at Composer start](https://www.dropbox.com/s/srspaesthmfphv0/Pasted%20image%20at%202016_09_26%2011_30%20AM.png?dl=0)
+![OpenSSL error at Composer start](https://raw.githubusercontent.com/koshevy/gulp-twig-php/master/error-examples/composer-openssl-error.png)
 
 You can find information about OpenSSL install at official site: https://www.openssl.org/
 
