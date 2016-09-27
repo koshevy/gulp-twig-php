@@ -18,7 +18,15 @@ no actual documentation and active community.
 >>
 >> **Just install PHP and this plugin.** <br /> **All integrations are automatized.** 
 
-### What is the Twig?
+
+### Table of contents:
+
+1. What is the Twig?
+2. Usage
+3. Get Started
+4. Readymade (Inspired by)
+
+# What is the Twig?
 
 The [*Twig*](http://twig.sensiolabs.org/) is a famous, sustainably growing template engine,
 with powerful toolkit over the PHP. Originally, *Twig* intended to working with Symphony2
@@ -164,7 +172,7 @@ In this case you can use script ```npm run install-twig```:
 This batch will install *Composer*, that's will help
 to install twig and theirs plugins. 
 
-# Readymades
+# Readymade
 
 Inspired by [**node-twig**](https://github.com/bitmade/node-twig)
 that`s a good idea but was't well-working when it was needed (for me).
