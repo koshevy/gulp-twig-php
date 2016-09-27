@@ -5,7 +5,7 @@
 [![Supports Gulp 3.9.1](https://img.shields.io/badge/gulp-3.9.1-cf4646.svg)](http://gulpjs.com/)
 [![You can ask a question at public chat channel](https://img.shields.io/badge/chat-frontdoor-blue.svg)](https://koshevy.frontdoor.im)
 
-![smiley](http://twig.sensiolabs.org/images/logo.png){:width="100%"}.
+[![Twig original](http://twig.sensiolabs.org/images/logo.png)](http://twig.sensiolabs.org/)
 
 # Server-side template compiler based on original Twig (PHP) for Gulp
 
