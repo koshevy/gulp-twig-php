@@ -5,16 +5,18 @@
 [![Supports Gulp 3.9.1](https://img.shields.io/badge/gulp-3.9.1-cf4646.svg)](http://gulpjs.com/)
 [![You can ask a question at public chat channel](https://img.shields.io/badge/chat-frontdoor-blue.svg)](https://koshevy.frontdoor.im)
 
-# Gulp plugin for Twig (PHP)
+![smiley](http://twig.sensiolabs.org/images/logo.png){:width="100%"}.
+
+# Server-side template compiler based on original Twig (PHP) for Gulp
 
 Provides integration with the [*Twig*](http://twig.sensiolabs.org/) original
 PHP implementation. Makes easy working with true Twig
 instead using of the ersatz (**twig.js**) that's has
 no actual documentation and active community.
 
->> #### It's a very simple
+>> **It's a very simple**
 >>
->> ##### Just install PHP and this plugin.<br /> All integrations are automatized. 
+>> **Just install PHP and this plugin.** <br /> **All integrations are automatized.** 
 
 ### What is the Twig?
 
@@ -56,7 +58,7 @@ Just create gulp task and don't think about how it works:
           twig = require('gulp-twig-php'),
           
           srcPath = 'some/path/to/src',
-          const srcDest = 'some/path/to/dest';
+          srcDest = 'some/path/to/dest';
     
 
     // create new task: for example - 'views'
@@ -142,7 +144,7 @@ You can find information about OpenSSL install at official site: https://www.ope
 
 >> **By default, you don't need to do anymore.**
 >>
->> Composer and Twig will be installed automatically at first plugin launch.
+>> **Composer and Twig will be installed automatically at first plugin launch.**
 
 Look at this screenshot. There is we have first time start of *Gulp* task
 that uses *this plugin*. It can be seen that at first iteration plugin
